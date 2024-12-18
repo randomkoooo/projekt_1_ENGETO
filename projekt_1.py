@@ -93,7 +93,7 @@ if users.get(user_name) == user_password:
               sep="\n"
               )
         print("*" * 40)
-        print(f"{"LENGHT":<10}{"OCCURENCES":<20}{"NUMBER"}")
+        print(f'{"LENGHT":<10}{"OCCURENCES":<20}{"NUMBER"}')
         print("*" * 40)
         for length, count in sorted(length_counts.items()):
             print(f"{length:<10}{'*' * count:<20}{count}")
